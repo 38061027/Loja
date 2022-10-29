@@ -2,6 +2,8 @@
 
 
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -12,20 +14,24 @@
 
 
 
-#menu-h ul{
+/*Nav*/
+ 
+
+
+#menu-p ul{
     color: #fff;
     list-style: none;
     padding: 0;
     background-color: rgba(39, 46, 43, 0.993);
-    
-}
-
-#menu-h ul li{
-    display: inline;
    
 }
 
-#menu-h ul li a{
+#menu-p ul li{
+  display: inline;
+   
+}
+
+#menu-p ul li a{
     color: #fff;
     text-decoration: none;
     padding: 20px;
@@ -33,9 +39,47 @@
     
 }
 
-#menu-h ul li a:hover{
+#menu-p ul li a:hover{
 
-        background-color: rgb(90, 212, 151);
+        background-color: rgb(78, 42, 179);
         transition-duration: 1.5s;
     
+}
+
+
+/*Buscar&*/
+
+#divbusca{
+    padding: 10px;
+
+}
+
+#btnbusca{
+    color: gray;
+    margin: 10px;
+    background-color: rgb(78, 42, 179);
+}
+
+   
+#opcao ul{
+    color: #fff;
+    list-style: none;
+    background-color:  rgba(39, 46, 43, 0.993);
+    padding: 0px;
+}
+
+#opcao ul li{
+    display: inline;
+    
+}
+
+#opcao ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+}
+
+#opcao ul li a:hover{
+    background-color: rgb(78, 42, 179) ;
 }
